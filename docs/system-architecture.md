@@ -288,3 +288,6 @@ flowchart LR
 - Hosting strategy: managed-only vs bring-your-own-cloud
 - Pricing model: token-based vs seat + usage hybrid
 
+Application Flow
+![alt text](qwintly_flow_diagram.png)
+
