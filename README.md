@@ -11,13 +11,15 @@ Qwintly helps users go from idea to deployed website in minutes by combining:
 - Live preview and in-browser editing
 - One-click deployment and hosting integrations
 
+
 ## Architecture package
 
 - [System Architecture Overview](docs/system-architecture.md)
 
+
 ## Core goals
 
-- Fast time-to-first-website (under 5 minutes)
+- Fast time-to-first-website (under 10 minutes)
 - Production-grade generated code (React/Next.js + Tailwind)
 - Real-time collaboration with AI and teammates
 - Safe execution/sandboxing of generated code
