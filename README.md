@@ -1,25 +1,16 @@
-# Qwintly Architecture
+# Qwintly Architecture (Next.js)
 
-This repository contains the **system architecture** for **Qwintly**, an AI website builder inspired by the UX of products like Lovable.
+This repository contains a **read-only Next.js app** that presents Qwintly’s website-generation architecture, based on `docs/system-architecture.md`.
 
-## What is Qwintly?
+## Source of truth
 
-Qwintly helps users go from idea to deployed website in minutes by combining:
+- `docs/system-architecture.md`
 
-- Conversational project planning
-- AI-driven code generation and design system creation
-- Live preview and in-browser editing
-- One-click deployment and hosting integrations
+## Local dev
 
-## Architecture package
+```bash
+npm install
+npm run dev
+```
 
-- [System Architecture Overview](docs/system-architecture.md)
-
-## Core goals
-
-- Fast time-to-first-website (under 5 minutes)
-- Production-grade generated code (React/Next.js + Tailwind)
-- Real-time collaboration with AI and teammates
-- Safe execution/sandboxing of generated code
-- Scalable multi-tenant SaaS platform
-
+Then open `http://localhost:3000`.
